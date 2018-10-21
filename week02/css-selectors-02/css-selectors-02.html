@@ -1,0 +1,97 @@
+<!-- 
+use the following n-th child css selectors
+
+- first
+- last
+- even
+- odd
+- nth-child(n)
+- only child
+- nth-child(anb)
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Selectors 02</title>
+  <style>
+    body {
+      margin: 0 auto;
+      width: 60%;
+    }
+
+    p:first-child {
+     color: red;
+    }
+
+    p:last-child {
+      color: blue;
+    }
+
+    p:nth-child(even) {
+      background-color: brown;
+      color: white;
+    }
+
+    p:nth-child(odd) {
+      text-decoration: underline teal;
+    }
+
+    p:nth-child(n) {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    p:only-child {
+      font-weight: 700;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 1.5rem;
+      color: black;
+      text-decoration: none;
+    }
+
+    /* every 5th child */
+    li:nth-child(5n) {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-weight: 700;
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Lorm Ipsums</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio reprehenderit cupiditate atque earum laborum quas consectetur officiis, ratione fugiat iste dolores ipsa, eum harum inventore est debitis provident nam!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio reprehenderit cupiditate atque earum laborum quas consectetur officiis, ratione fugiat iste dolores ipsa, eum harum inventore est debitis provident nam!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio reprehenderit cupiditate atque earum laborum quas consectetur officiis, ratione fugiat iste dolores ipsa, eum harum inventore est debitis provident nam!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio reprehenderit cupiditate atque earum laborum quas consectetur officiis, ratione fugiat iste dolores ipsa, eum harum inventore est debitis provident nam!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio reprehenderit cupiditate atque earum laborum quas consectetur officiis, ratione fugiat iste dolores ipsa, eum harum inventore est debitis provident nam!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio reprehenderit cupiditate atque earum laborum quas consectetur officiis, ratione fugiat iste dolores ipsa, eum harum inventore est debitis provident nam!</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam distinctio reprehenderit cupiditate atque earum laborum quas consectetur officiis, ratione fugiat iste dolores ipsa, eum harum inventore est debitis provident nam!</p>
+  <hr>
+  <div>
+    <p>Only Child, no spares to be had.</p>
+  </div>
+  <hr>
+  <div>
+    <h2>Unorderd List</h2>
+    <ul>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+      <li>List items</li>
+    </ul>
+  </div>
+</body>
+</html>
