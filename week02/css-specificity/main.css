@@ -1,0 +1,74 @@
+/* element */
+p, h1, div {
+  border: .05rem dashed black;
+}
+/* element */
+h1 {
+  height: 100%;
+  width: 350px;
+}
+/* element */
+div {
+  height: 100%;
+  width: 400px;
+}
+/* element */
+p {
+  height: 100px;
+  width: 290px;
+}
+
+/* id */
+#container {
+  height: 500px;
+  margin: 0 auto;
+  width: 700px;
+  color: darkgreen;
+}
+
+/* class */
+.three-p {
+  color: rgb(36, 107, 89);
+  font-weight: 700;
+}
+
+/* class + pseudo-class */
+.three-p:first-child {
+  background-color: bisque;
+}
+
+/* element + class + pseudo-element */
+p.three-p::after {
+  content: " -fin";
+  color: crimson;
+}
+
+/* element + class + pseudo-class */
+p.three-p:nth-child(3) {
+  color: darkblue;
+  font-size: 1.15rem;
+  height: 160px;
+}
+
+/* element + combinator + element + combinator + element + psudo-class + psudo-class */
+body > div > p:nth-child(2):hover {
+  text-decoration: underline;
+  color: chocolate;
+}
+
+/* element + combinator + element +  pseudo-element*/
+div > p::first-letter {
+  font-size: 1.25rem;
+}
+
+/* element + combinator + element + pseudo-class */
+body > h1:active {
+  color: blueviolet;
+}
+
+/* element + combinator + element + pseudo-class + pseudo-element  */
+div > p:only-child::selection {
+  color: darkmagenta;
+  background-color: yellow;
+}
+
