@@ -1,0 +1,30 @@
+body {
+  background-color: cadetblue;
+}
+
+p {
+  color: white;
+}
+
+/* Descendant combinator */
+div p {
+  background-color: blue;
+}
+
+/* Child combinator */
+div > p {
+  font-size: 1.2rem;
+  background-color: brown;
+}
+
+/* General Sibling Combinator */
+div ~ p {
+  font-size: 1.11rem;
+  background-color: coral;
+}
+
+/* Adjacent Sibling Combinator */
+div + p {
+  font-weight: 700;
+  text-decoration: underline;
+}
