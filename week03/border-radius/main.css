@@ -1,0 +1,23 @@
+div {
+  color: rgb(44, 44, 44);
+  font-weight: 700;
+  height: 150px;
+  width: 200px;
+  background-color: darkseagreen;
+  border: .15rem dashed black;
+  margin: 10px;
+
+}
+
+span {
+  border: .15rem dashed black;
+  background-color: bisque;
+  font-size: 1.25rem;
+}
+
+.lorem {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin: 8px 8px 8px 0;
+}
