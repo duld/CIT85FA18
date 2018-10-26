@@ -1,0 +1,9 @@
+.lemon {
+  background-color: yellow;
+  display: inline-block;
+  margin: 10px;
+  height: 80px;
+  width: 80px;
+  border: solid 1px yellow;
+  border-radius: 55px 10px;
+}
