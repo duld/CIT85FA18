@@ -59,3 +59,26 @@ div > p {
   background-color: blue;
 
 }
+
+```
+
+## Box Model
+
+Everything on the web is a box. The box is made up of:
+
+* Content
+* Padding
+* Border
+* Margin
+
+### Box-Sizing
+
+The Box-Sizing attribute declares how the width and height you assign to an HTML element is applied. By default the height/width is applied to the content (content-box). Border-Box applies the width and height to the content, padding and border.
+
+#### Border-Box
+
+The __width__ and __height__ properties include the content, padding, and th border, but do not include the margin. Note that the padding and border will be inside the box.
+
+#### Content-Box
+
+This is th einitial and default value as specified byt he CSS standard. The width and height properties include the content, but does not include the padding, border, or margin.
