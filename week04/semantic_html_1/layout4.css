@@ -1,0 +1,84 @@
+.site-main-nav {
+  display: flex;
+  background-color: lightblue;
+  height: 120px;
+  align-items: center;
+  margin-top: 0;
+}
+
+footer.site-main-nav {
+  margin-top: 8px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.sidebar {
+  height: 100%;
+  background: yellow;
+  width: 25%;
+}
+
+.sidebar > h2 {
+  text-align: center;
+}
+
+.content {
+  background-color: greenyellow;
+  width: 40%;
+}
+
+.content > h2 {
+  text-align: center;
+}
+
+.content > header, .content > footer {
+  margin-left: 10px;
+}
+
+.content > div > section {
+  background-color: rgb(179, 123, 243);
+  height: 110px;
+  width: 100%;
+}
+
+.content-section-pad {
+  display: flex;
+  flex-direction: column;
+  width: 92%;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+/* aside */
+aside {
+  display: flex;
+  background-color: orange;
+  width: 30%;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+
+aside > h2 {
+  margin-bottom: 50px;
+}
+
+aside > div {
+  width: 90%;
+}
+
+aside > div > section {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  background-color: red;
+  margin-bottom: 15px;
+  align-items: center;
+  justify-content: center;
+}
