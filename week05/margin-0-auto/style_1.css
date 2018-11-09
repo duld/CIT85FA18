@@ -1,0 +1,28 @@
+body {
+  background-color: blue;
+}
+
+article {
+  margin: 0 auto;
+  padding: 15px 20px;
+  width: 80%;
+  background-color: rgb(107, 201, 107);
+  border: 3px solid black;
+}
+
+#surf-img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  border: 9px groove yellow;
+}
+
+#header-01 {
+  color: blue;
+}
+
+#header-02 {
+  color: red;
+}
