@@ -1,9 +1,11 @@
+
 body {
   border: 1px dashed red;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   margin: 0;
+  height: 100%;
 }
 
 body > div {

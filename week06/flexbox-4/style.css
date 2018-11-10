@@ -1,0 +1,40 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+}
+
+body > div {
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.one {
+  background-color: rgb(20, 45, 114);
+  width: 60%;
+}
+
+.two {
+  background-color: rgb(56, 93, 161);
+  width: 40%;
+}
+
+.three {
+  background-color: skyblue;
+  width: 33%;
+  flex-grow: 1;
+}
+
+.four {
+  background-color: rgb(156, 181, 231);
+  width: 33%;
+  flex-grow: 1;
+}
+
+.five {
+  background-color: rgb(205, 213, 230);
+  width: 33%;
+  flex-grow: 1;
+}
