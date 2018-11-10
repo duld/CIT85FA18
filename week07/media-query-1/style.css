@@ -1,0 +1,10 @@
+h1 {
+  color: purple;
+}
+
+
+@media screen and (min-width: 1200px) {
+  h1 {
+    color: Orange;
+  }
+}
