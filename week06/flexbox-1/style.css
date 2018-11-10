@@ -1,0 +1,22 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px red solid;
+}
+
+body > div {
+  display: flex;
+  flex-grow: 1;
+  height: 100px;
+  width: 130px;
+  background-color: orange;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body > div:nth-child(20) {
+  flex-grow: 2;
+}
