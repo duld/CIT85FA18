@@ -1,0 +1,38 @@
+body {
+  width: 60%;
+  margin: 0 auto;
+}
+
+body div {
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+.container {
+  height: 400px;
+  display: flex;
+}
+
+.one {
+  background-color: navy;
+  height: 100%;
+  width: 30%;
+}
+
+.container-column {
+  display: flex;
+  flex-direction: column; /* to ensure it stays verticle*/
+  width: 70%;
+  border: 2px solid red;
+  box-sizing: border-box;
+}
+
+.two {
+  background-color: blue;
+  height: 50%;
+}
+
+.three {
+  background-color: lightblue;
+  height: 50%;
+}
