@@ -10,7 +10,7 @@ body, div, {
 .container {
   display: flex;
   flex-direction: row;
-  height: 500px;
+  height: 600px;
   width: 100%;
   background-color: rgba(0, 0, 255, .2)
 }
@@ -27,6 +27,10 @@ body, div, {
   margin: 20px;
   justify-content: center;
   align-items: center;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .row-rev {
@@ -51,10 +55,6 @@ body, div, {
 
 .space-evenly {
   justify-content: space-evenly;
-}
-
-.align-end {
-  align-items: end;
 }
 
 .center-row {
