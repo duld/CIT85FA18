@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#hero-img {
+  background-image: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  /* color: black; */
+}
+
+#hero-img > div {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+#hero-img > div > header {
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: wrap; */
+  align-items: center;
+  height: 50%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .15);
+}
+
+#hero-img h1 {
+  margin-top: 30vh;
+  margin-bottom: 5px;
+}
+
+#hero-img p {
+  margin: 0;
+}
+
+#content-button {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 50%;
+}
+
+a {
+  font-size: 1.15rem;
+  display: block;
+  padding: 12px;
+  margin-bottom: 8px;
+  color: white;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 15px;
+}
+
+a:hover {
+  background-color: rgba(255, 255, 255, .25);
+}
