@@ -7,6 +7,7 @@ body {
 #hero-img {
   background-image: url("https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg");
   height: 100vh;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -31,7 +32,6 @@ body {
   align-items: center;
   height: 50%;
   width: 100%;
-  background-color: rgba(0, 0, 0, .15);
 }
 
 #hero-img h1 {
@@ -62,4 +62,11 @@ a {
 
 a:hover {
   background-color: rgba(255, 255, 255, .25);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 60%;
 }
