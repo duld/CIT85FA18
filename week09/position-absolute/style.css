@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#one {
+  background-color: blue;
+}
+
+#two {
+  background-color: red;
+}
+#three {
+  background-color: green;
+  position: relative;
+  width: 600px;
+  height: 400px;
+}
+
+#three > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  margin: 5px;
+}
+
+#top-right {
+  background-color: rgb(168, 158, 11);
+  right: 0;
+  top: 0;
+}
+
+#bottom-left {
+  background-color: yellow;
+  bottom: 0;
+  left: 0;
+}
+
+#four {
+  background-color: gray;
+}
+
+#five {
+  background-color: orange;
+}
+
+#six {
+  background-color: teal;
+  position: absolute;
+  margin: 0;
+  top: 10px;
+  right: 50px;
+}
+
+#seven {
+  background-color: rosybrown;
+}
+
+#eight {
+  background-color: greenyellow;
+}
