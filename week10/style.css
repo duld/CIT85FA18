@@ -1,0 +1,18 @@
+div {
+  border: 2px solid red;
+  margin: 8px;
+}
+
+#slow-turn {
+  float: right;
+  margin: 10px;
+}
+
+#marching-bird {
+  float: left; 
+  margin: 10px;
+}
+
+.clearfix {
+  overflow: auto;
+}
