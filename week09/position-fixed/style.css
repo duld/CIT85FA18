@@ -1,0 +1,25 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+.fixed-bottom {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  background-color: rgba(50, 50, 90, .45);
+  position: fixed;
+  bottom: 0;
+  width: 60%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px 25px 0 0;
+}
+
+.fixed-bottom:hover {
+  background-color: rgba(50, 50, 90, .9);
+  color: white;
+}
