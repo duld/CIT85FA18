@@ -1,0 +1,42 @@
+body {
+  height: 1000px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#ball {
+  box-sizing: border-box;
+  height: 100px;
+  width: 100px;
+  border: 3px solid black;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-animation: ball-x 6s linear infinite alternate;
+          animation: ball-x 6s linear infinite alternate;
+}
+
+#anim-container {
+  position: absolute;
+  -webkit-animation: ball-y 1.5s  ease-in-out infinite alternate;
+          animation: ball-y 1.5s  ease-in-out infinite alternate;
+}
+
+#boundry {
+  border: 4px dashed black;
+  width: 800px;
+  height: 600px;
+}
+
+
+/* ball animation */
+@keyframes ball-x { 
+  0% { transform: translateX(0px);}
+  100% { transform: translateX(700px);}
+}
+
+@keyframes ball-y {
+  0% { transform: translateY(0px);}
+  100% { transform: translateY(500px);}
+}
